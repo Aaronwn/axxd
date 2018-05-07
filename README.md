@@ -31,7 +31,7 @@ import 'antd/dist/axxantd.css';  // or 'antd/dist/axxantd.less'
 $ git clone https://github.com/gaosife/axxantd.git
 $ cd ant-design
 $ npm install
-$ npm start
+$ npm run start
 ```
 
 打开浏览器访问 http://127.0.0.1:8001 
