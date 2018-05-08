@@ -1,33 +1,31 @@
 
 
-# Axx Ant-Design
-
-基于ant design二次开发的UI组件库，适用于企业级中后台管理系统。
+# Axx Design
 
 ## 安装
 
 ```bash
-npm install axxantd --save
+npm install axx-design --save
 ```
 
 ## 示例
 
 ```jsx
-import { DatePicker } from 'axxantd';
+import { DatePicker } from 'axx-design';
 ReactDOM.render(<DatePicker />, mountNode);
 ```
 
 引入样式：
 
 ```jsx
-import 'antd/dist/axxantd.css';  // or 'antd/dist/axxantd.less'
+import 'antd/dist/axx-design.css';  // or 'antd/dist/axx-design.less'
 ```
 
 
 ## 本地开发
 
 ```bash
-$ git clone https://github.com/gaosife/axxantd.git
+$ git clone https://github.com/gaosife/axx-design.git
 $ cd ant-design
 $ npm install
 $ npm run start

@@ -1,5 +1,5 @@
 {
-  "name": "axxantd",
+  "name": "axx-design",
   "version": "0.0.1",
   "title": "Ant Design",
   "description": "An enterprise-class UI design language and React-based implementation",
@@ -20,10 +20,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gaosife/axxantd"
+    "url": "git+https://github.com/gaosife/axx-design.git"
   },
   "bugs": {
-    "url": "https://github.com/gaosife/axxantd/issues"
+    "url": "https://github.com/gaosife/axx-design/issues"
   },
   "main": "lib/index.js",
   "module": "es/index.js",
