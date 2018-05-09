@@ -14,7 +14,7 @@ title:
 Usually used for messages remind.
 
 ````jsx
-import { Avatar, Badge } from 'antd';
+import { Avatar, Badge } from 'axxd';
 
 ReactDOM.render(
   <div>

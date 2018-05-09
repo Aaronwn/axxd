@@ -14,7 +14,7 @@ title:
 Set orientation of divider to left or right.
 
 ````jsx
-import { Divider } from 'axx-design';
+import { Divider } from 'axxd';
 
 ReactDOM.render(
   <div>

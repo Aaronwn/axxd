@@ -177,7 +177,7 @@ const columns = [{
 ## 在 TypeScript 中使用
 
 ```jsx
-import { Table } from 'antd';
+import { Table } from 'axxd';
 import { ColumnProps } from 'antd/lib/table';
 
 interface IUser {

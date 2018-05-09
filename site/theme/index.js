@@ -50,7 +50,7 @@ module.exports = {
   plugins: [
     'bisheng-plugin-description',
     'bisheng-plugin-toc?maxDepth=2&keepElem',
-    'bisheng-plugin-antd',
+    'bisheng-plugin-axxd',
     'bisheng-plugin-react?lang=__react',
   ],
   routes: {

@@ -14,7 +14,7 @@ title:
 Autocomplete with remote ajax data.
 
 ````jsx
-import { Select } from 'antd';
+import { Select } from 'axxd';
 import jsonp from 'fetch-jsonp';
 import querystring from 'querystring';
 const Option = Select.Option;

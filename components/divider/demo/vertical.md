@@ -14,7 +14,7 @@ title:
 Use `type="vertical"` make it vertical.
 
 ````jsx
-import { Divider } from 'axx-design';
+import { Divider } from 'axxd';
 
 ReactDOM.render(
   <div>

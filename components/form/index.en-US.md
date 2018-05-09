@@ -167,7 +167,7 @@ See more advanced usage at [async-validator](https://github.com/yiminghe/async-v
 ## Using in TypeScript
 
 ```jsx
-import { Form } from 'antd';
+import { Form } from 'axxd';
 import { FormComponentProps } from 'antd/lib/form';
 
 interface UserFormProps extends FormComponentProps {

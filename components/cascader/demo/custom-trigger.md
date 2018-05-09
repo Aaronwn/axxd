@@ -14,7 +14,7 @@ title:
 Separate trigger button and result.
 
 ````jsx
-import { Cascader } from 'antd';
+import { Cascader } from 'axxd';
 
 const options = [{
   value: 'zhejiang',
