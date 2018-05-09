@@ -3,16 +3,15 @@
 exports[`renders ./components/collapse/demo/accordion.md correctly 1`] = `
 <div
   class="ant-collapse"
-  role="tablist"
 >
   <div
     class="ant-collapse-item"
+    role="tablist"
   >
     <div
       aria-expanded="false"
       class="ant-collapse-header"
       role="tab"
-      tabindex="0"
     >
       <i
         class="arrow"
@@ -22,12 +21,12 @@ exports[`renders ./components/collapse/demo/accordion.md correctly 1`] = `
   </div>
   <div
     class="ant-collapse-item"
+    role="tablist"
   >
     <div
       aria-expanded="false"
       class="ant-collapse-header"
       role="tab"
-      tabindex="0"
     >
       <i
         class="arrow"
@@ -37,12 +36,12 @@ exports[`renders ./components/collapse/demo/accordion.md correctly 1`] = `
   </div>
   <div
     class="ant-collapse-item"
+    role="tablist"
   >
     <div
       aria-expanded="false"
       class="ant-collapse-header"
       role="tab"
-      tabindex="0"
     >
       <i
         class="arrow"
@@ -59,12 +58,12 @@ exports[`renders ./components/collapse/demo/basic.md correctly 1`] = `
 >
   <div
     class="ant-collapse-item ant-collapse-item-active"
+    role="tablist"
   >
     <div
       aria-expanded="true"
       class="ant-collapse-header"
-      role="button"
-      tabindex="0"
+      role="tab"
     >
       <i
         class="arrow"
@@ -73,6 +72,7 @@ exports[`renders ./components/collapse/demo/basic.md correctly 1`] = `
     </div>
     <div
       class="ant-collapse-content ant-collapse-content-active"
+      role="tabpanel"
     >
       <div
         class="ant-collapse-content-box"
@@ -89,12 +89,12 @@ exports[`renders ./components/collapse/demo/basic.md correctly 1`] = `
   </div>
   <div
     class="ant-collapse-item"
+    role="tablist"
   >
     <div
       aria-expanded="false"
       class="ant-collapse-header"
-      role="button"
-      tabindex="0"
+      role="tab"
     >
       <i
         class="arrow"
@@ -104,12 +104,12 @@ exports[`renders ./components/collapse/demo/basic.md correctly 1`] = `
   </div>
   <div
     class="ant-collapse-item ant-collapse-item-disabled"
+    role="tablist"
   >
     <div
       aria-expanded="false"
       class="ant-collapse-header"
-      role="button"
-      tabindex="-1"
+      role="tab"
     >
       <i
         class="arrow"
@@ -126,12 +126,12 @@ exports[`renders ./components/collapse/demo/borderless.md correctly 1`] = `
 >
   <div
     class="ant-collapse-item ant-collapse-item-active"
+    role="tablist"
   >
     <div
       aria-expanded="true"
       class="ant-collapse-header"
-      role="button"
-      tabindex="0"
+      role="tab"
     >
       <i
         class="arrow"
@@ -140,6 +140,7 @@ exports[`renders ./components/collapse/demo/borderless.md correctly 1`] = `
     </div>
     <div
       class="ant-collapse-content ant-collapse-content-active"
+      role="tabpanel"
     >
       <div
         class="ant-collapse-content-box"
@@ -154,12 +155,12 @@ exports[`renders ./components/collapse/demo/borderless.md correctly 1`] = `
   </div>
   <div
     class="ant-collapse-item"
+    role="tablist"
   >
     <div
       aria-expanded="false"
       class="ant-collapse-header"
-      role="button"
-      tabindex="0"
+      role="tab"
     >
       <i
         class="arrow"
@@ -169,12 +170,12 @@ exports[`renders ./components/collapse/demo/borderless.md correctly 1`] = `
   </div>
   <div
     class="ant-collapse-item"
+    role="tablist"
   >
     <div
       aria-expanded="false"
       class="ant-collapse-header"
-      role="button"
-      tabindex="0"
+      role="tab"
     >
       <i
         class="arrow"
@@ -191,13 +192,13 @@ exports[`renders ./components/collapse/demo/custom.md correctly 1`] = `
 >
   <div
     class="ant-collapse-item ant-collapse-item-active"
+    role="tablist"
     style="background:#f7f7f7;border-radius:4px;margin-bottom:24px;border:0;overflow:hidden"
   >
     <div
       aria-expanded="true"
       class="ant-collapse-header"
-      role="button"
-      tabindex="0"
+      role="tab"
     >
       <i
         class="arrow"
@@ -206,6 +207,7 @@ exports[`renders ./components/collapse/demo/custom.md correctly 1`] = `
     </div>
     <div
       class="ant-collapse-content ant-collapse-content-active"
+      role="tabpanel"
     >
       <div
         class="ant-collapse-content-box"
@@ -222,13 +224,13 @@ exports[`renders ./components/collapse/demo/custom.md correctly 1`] = `
   </div>
   <div
     class="ant-collapse-item"
+    role="tablist"
     style="background:#f7f7f7;border-radius:4px;margin-bottom:24px;border:0;overflow:hidden"
   >
     <div
       aria-expanded="false"
       class="ant-collapse-header"
-      role="button"
-      tabindex="0"
+      role="tab"
     >
       <i
         class="arrow"
@@ -238,13 +240,13 @@ exports[`renders ./components/collapse/demo/custom.md correctly 1`] = `
   </div>
   <div
     class="ant-collapse-item"
+    role="tablist"
     style="background:#f7f7f7;border-radius:4px;margin-bottom:24px;border:0;overflow:hidden"
   >
     <div
       aria-expanded="false"
       class="ant-collapse-header"
-      role="button"
-      tabindex="0"
+      role="tab"
     >
       <i
         class="arrow"
@@ -261,12 +263,12 @@ exports[`renders ./components/collapse/demo/mix.md correctly 1`] = `
 >
   <div
     class="ant-collapse-item"
+    role="tablist"
   >
     <div
       aria-expanded="false"
       class="ant-collapse-header"
-      role="button"
-      tabindex="0"
+      role="tab"
     >
       <i
         class="arrow"
@@ -276,12 +278,12 @@ exports[`renders ./components/collapse/demo/mix.md correctly 1`] = `
   </div>
   <div
     class="ant-collapse-item"
+    role="tablist"
   >
     <div
       aria-expanded="false"
       class="ant-collapse-header"
-      role="button"
-      tabindex="0"
+      role="tab"
     >
       <i
         class="arrow"
@@ -291,12 +293,12 @@ exports[`renders ./components/collapse/demo/mix.md correctly 1`] = `
   </div>
   <div
     class="ant-collapse-item"
+    role="tablist"
   >
     <div
       aria-expanded="false"
       class="ant-collapse-header"
-      role="button"
-      tabindex="0"
+      role="tab"
     >
       <i
         class="arrow"
@@ -313,12 +315,12 @@ exports[`renders ./components/collapse/demo/noarrow.md correctly 1`] = `
 >
   <div
     class="ant-collapse-item ant-collapse-item-active"
+    role="tablist"
   >
     <div
       aria-expanded="true"
       class="ant-collapse-header"
-      role="button"
-      tabindex="0"
+      role="tab"
     >
       <i
         class="arrow"
@@ -327,6 +329,7 @@ exports[`renders ./components/collapse/demo/noarrow.md correctly 1`] = `
     </div>
     <div
       class="ant-collapse-content ant-collapse-content-active"
+      role="tabpanel"
     >
       <div
         class="ant-collapse-content-box"
@@ -343,12 +346,12 @@ exports[`renders ./components/collapse/demo/noarrow.md correctly 1`] = `
   </div>
   <div
     class="ant-collapse-item ant-collapse-no-arrow"
+    role="tablist"
   >
     <div
       aria-expanded="false"
       class="ant-collapse-header"
-      role="button"
-      tabindex="0"
+      role="tab"
     >
       This is panel header with no arrow icon
     </div>

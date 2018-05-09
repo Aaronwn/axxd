@@ -41,7 +41,7 @@ function defaultItemRender(route: Route, params: any, routes: Route[], paths: st
 }
 
 export default class Breadcrumb extends React.Component<BreadcrumbProps, any> {
-  static Item: typeof BreadcrumbItem;
+  static Item: any;
 
   static defaultProps = {
     prefixCls: 'ant-breadcrumb',

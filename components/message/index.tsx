@@ -40,7 +40,7 @@ function notice(
   type: NoticeType,
   onClose?: () => void,
 ) {
-  const iconType = ({
+  let iconType = ({
     info: 'info-circle',
     success: 'check-circle',
     error: 'cross-circle',

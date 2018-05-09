@@ -5,7 +5,7 @@ import { Store } from './createStore';
 import { RadioChangeEvent } from '../radio';
 import { CheckboxChangeEvent } from '../checkbox';
 
-export type CompareFn<T> = ((a: T, b: T, sortOrder?: 'ascend' | 'descend') => number);
+export type CompareFn<T> = ((a: T, b: T) => number);
 export type ColumnFilterItem = { text: string; value: string, children?: ColumnFilterItem[] };
 
 export interface ColumnProps<T> {
@@ -28,7 +28,7 @@ export interface ColumnProps<T> {
   fixed?: boolean | ('left' | 'right');
   filterIcon?: React.ReactNode;
   filteredValue?: any[];
-  sortOrder?: 'ascend' | 'descend';
+  sortOrder?: boolean | ('ascend' | 'descend');
   children?: ColumnProps<T>[];
   onCellClick?: (record: T, event: any) => void;
   onCell?: (record: T) => any;
@@ -59,13 +59,11 @@ export interface TableLocale {
 }
 
 export type RowSelectionType = 'checkbox' | 'radio';
-export type SelectionSelectFn<T> = (record: T, selected: boolean, selectedRows: Object[], nativeEvent: Event) => any;
+export type SelectionSelectFn<T> = (record: T, selected: boolean, selectedRows: Object[]) => any;
 
 export interface TablePaginationConfig extends PaginationProps {
   position?: 'top' | 'bottom' | 'both';
 }
-
-export type TableSelectWay = 'onSelect' | 'onSelectAll' | 'onSelectInvert';
 
 export interface TableRowSelection<T> {
   type?: RowSelectionType;
@@ -129,7 +127,7 @@ export interface TableState<T> {
   pagination: TablePaginationConfig;
   filters: TableStateFilters;
   sortColumn: ColumnProps<T> | null;
-  sortOrder: 'ascend' | 'descend' | undefined;
+  sortOrder: string;
 }
 
 export type SelectionItemSelectFn = (key: string[]) => any;
@@ -171,14 +169,6 @@ export interface SelectionBoxProps {
 
 export interface SelectionBoxState {
   checked?: boolean;
-}
-
-export interface SelectionInfo<T> {
-  selectWay: TableSelectWay;
-  record?: T;
-  checked?: boolean;
-  changeRowKeys?: React.Key[];
-  nativeEvent?: Event;
 }
 
 export interface FilterMenuProps<T> {

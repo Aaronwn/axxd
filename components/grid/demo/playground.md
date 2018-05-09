@@ -89,7 +89,7 @@ ReactDOM.render(<App />, mountNode);
   border: 0;
 }
 #components-grid-demo-playground [class^="ant-col-"] > div {
-  background: #00A0E9;
+  background: #75C82B;
   height: 120px;
   line-height: 120px;
   font-size: 13px;

@@ -115,14 +115,10 @@ export interface FormComponentProps {
   form: WrappedFormUtils;
 }
 
-export interface RcBaseFormProps {
-   wrappedComponentRef?: any;
-}
-
 export interface ComponentDecorator {
   <P extends FormComponentProps>(
     component: React.ComponentClass<P> | React.SFC<P>,
-  ): React.ComponentClass<RcBaseFormProps & Omit<P, keyof FormComponentProps>>;
+  ): React.ComponentClass<Omit<P, keyof FormComponentProps>>;
 }
 
 export default class Form extends React.Component<FormProps, any> {
