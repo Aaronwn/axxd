@@ -387,7 +387,7 @@ We provide a [migration tool](https://github.com/ant-design/antd-migration-helpe
 - Added `Form.createFormField`, and you must use it to wrap field data returned in `option.mapPropsToFields`:
 
   ```diff
-  import { Form } from 'antd';
+  import { Form } from 'axxd';
 
   Form.create({
     mapPropsToFields() {

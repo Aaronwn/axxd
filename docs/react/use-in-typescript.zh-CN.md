@@ -147,7 +147,7 @@ module.exports = function override(config, env) {
 
 ```diff
 import * as React from 'react';
-import { Button } from 'antd';
+import { Button } from 'axxd';
 import './App.css';
 
 class App extends React.Component {

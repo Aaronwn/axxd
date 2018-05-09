@@ -389,7 +389,7 @@ timeline: true
 - 新增 `Form.createFormField` 方法，`mapPropsToFields` 返回的字段都需要由该方法创建。
 
   ```diff
-  import { Form } from 'antd';
+  import { Form } from 'axxd';
 
   Form.create({
     mapPropsToFields() {
@@ -416,7 +416,7 @@ timeline: true
 - 由于默认语言改为英文，如果你需要显示中文，现在需要配置 `LocalProvider`。
 
   ```javascript
-  import { LocaleProvider } from 'antd';
+  import { LocaleProvider } from 'axxd';
   import zhCN from 'antd/lib/locale-provider/zh_CN';
 
   ReactDOM.render(

@@ -73,7 +73,7 @@ We provide `antd.js` `antd.css` and `antd.min.js` `antd.min.css` under `antd/dis
 ## Usage
 
 ```jsx
-import { DatePicker } from 'antd';
+import { DatePicker } from 'axxd';
 ReactDOM.render(<DatePicker />, mountNode);
 ```
 
@@ -102,7 +102,7 @@ import 'antd/dist/antd.css';  // or 'antd/dist/antd.less'
 
    ```jsx
    // import js and css modularly, parsed by babel-plugin-import
-   import { DatePicker } from 'antd';
+   import { DatePicker } from 'axxd';
    ```
 
 - Manually import

@@ -148,7 +148,7 @@ Remove the `@import '~antd/dist/antd.css';` statement added before because `babe
 
 ```diff
 import * as React from 'react';
-import { Button } from 'antd';
+import { Button } from 'axxd';
 import './App.css';
 
 class App extends React.Component {

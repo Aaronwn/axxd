@@ -63,7 +63,7 @@ As you can see, there is no difference between antd's components and usual React
 ```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { LocaleProvider, DatePicker, message } from 'antd';
+import { LocaleProvider, DatePicker, message } from 'axxd';
 // The default locale is en-US, but we can change it to other language
 import frFR from 'antd/lib/locale-provider/fr_FR';
 import moment from 'moment';
@@ -173,7 +173,7 @@ There are some [scaffolds](http://scaffold.ant.design/) which have already integ
 
 ## Import on Demand
 
-If you see logs like below screenshot, you might be importing all components by writing `import { Button } from 'antd';`. This will affect your app's network performance.
+If you see logs like below screenshot, you might be importing all components by writing `import { Button } from 'axxd';`. This will affect your app's network performance.
 
 ```
 You are using a whole package of antd, please use https://www.npmjs.com/package/babel-plugin-import to reduce app bundle size.
@@ -191,7 +191,7 @@ import 'antd/lib/button/style'; // or antd/lib/button/style/css for css format f
 We strongly recommend using [babel-plugin-import](https://github.com/ant-design/babel-plugin-import), which can convert the following code to the 'antd/lib/xxx' way:
 
 ```jsx
-import { Button } from 'antd';
+import { Button } from 'axxd';
 ```
 
 And this plugin can load styles too, read [usage](https://github.com/ant-design/babel-plugin-import#usage) for more details.

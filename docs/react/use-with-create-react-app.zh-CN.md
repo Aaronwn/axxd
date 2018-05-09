@@ -148,7 +148,7 @@ $ yarn add babel-plugin-import --dev
   // src/App.js
   import React, { Component } from 'react';
 - import Button from 'antd/lib/button';
-+ import { Button } from 'antd';
++ import { Button } from 'axxd';
   import './App.css';
 
   class App extends Component {

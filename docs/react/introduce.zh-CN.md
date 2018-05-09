@@ -74,7 +74,7 @@ $ yarn add antd
 ## 示例
 
 ```jsx
-import { DatePicker } from 'antd';
+import { DatePicker } from 'axxd';
 ReactDOM.render(<DatePicker />, mountNode);
 ```
 
@@ -105,7 +105,7 @@ import 'antd/dist/antd.css';  // or 'antd/dist/antd.less'
 
    ```jsx
    // babel-plugin-import 会帮助你加载 JS 和 CSS
-   import { DatePicker } from 'antd';
+   import { DatePicker } from 'axxd';
    ```
 
 - 手动引入

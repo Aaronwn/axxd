@@ -151,7 +151,7 @@ Remove the `@import '~antd/dist/antd.css';` statement added before because `babe
   // src/App.js
   import React, { Component } from 'react';
 - import Button from 'antd/lib/button';
-+ import { Button } from 'antd';
++ import { Button } from 'axxd';
   import './App.css';
 
   class App extends Component {
