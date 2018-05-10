@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import { Link } from 'bisheng/router';
 import { FormattedMessage } from 'react-intl';
 import classNames from 'classnames';
-// import { Select, Menu, Row, Col, Icon, Popover, Input, Badge, Button } from 'antd';
-import { Row, Col, Icon, Popover, Input, Button } from 'antd';
+// import { Select, Menu, Row, Col, Icon, Popover, Input, Badge, Button } from 'axxd';
+import { Row, Col, Icon, Popover, Input, Button } from 'axxd';
 import * as utils from '../utils';
-// import { version as antdVersion } from '../../../../package.json';
+// import { version as axxdVersion } from '../../../../package.json';
 
 // const { Option } = Select;
 
@@ -109,7 +109,7 @@ export default class Header extends React.Component {
     // const {
     //   location, themeConfig,
     // } = this.props;
-    // const docVersions = { ...themeConfig.docVersions, [antdVersion]: antdVersion };
+    // const docVersions = { ...themeConfig.docVersions, [axxdVersion]: axxdVersion };
     // const versionOptions = Object.keys(docVersions)
     //   .map(version => <Option value={docVersions[version]} key={version}>{version}</Option>);
     const module = location.pathname.replace(/(^\/|\/$)/g, '').split('/').slice(0, -1).join('/');
@@ -133,7 +133,7 @@ export default class Header extends React.Component {
       //   className="version"
       //   size="small"
       //   dropdownMatchSelectWidth={false}
-      //   defaultValue={antdVersion}
+      //   defaultValue={axxdVersion}
       //   onChange={this.handleVersionChange}
       //   getPopupContainer={trigger => trigger.parentNode}
       // >
