@@ -5,20 +5,20 @@
 ## 安装
 
 ```bash
-npm install axx-design --save
+npm install axxd --save
 ```
 
 ## 示例
 
 ```jsx
-import { DatePicker } from 'axx-design';
+import { DatePicker } from 'axxd';
 ReactDOM.render(<DatePicker />, mountNode);
 ```
 
 引入样式：
 
 ```jsx
-import 'antd/dist/axx-design.css';  // or 'antd/dist/axx-design.less'
+import 'antd/dist/axxd.css';  // or 'antd/dist/axxd.less'
 ```
 
 

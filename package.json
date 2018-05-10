@@ -1,7 +1,7 @@
 {
   "name": "axxd",
-  "version": "0.0.7",
-  "title": "Ant Design",
+  "version": "0.0.9",
+  "title": "Axx Design",
   "description": "An enterprise-class UI design language and React-based implementation",
   "homepage": "http://axx.design/",
   "keywords": [
@@ -16,7 +16,7 @@
     "frontend"
   ],
   "contributors": [
-    "ant"
+    "axxd"
   ],
   "repository": {
     "type": "git",
