@@ -118,7 +118,7 @@ export default class Layout extends React.Component {
           {/* {promoteBanner} */}
           <Header {...restProps} />
           {children}
-          <Footer {...restProps} />
+          {/* <Footer {...restProps} /> */}
         </div>
       </IntlProvider>
     );

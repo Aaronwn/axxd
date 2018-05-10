@@ -57,10 +57,12 @@ module.exports = {
     path: '/',
     component: './template/Layout/index',
     indexRoute: { component: homeTmpl },
-    childRoutes: [{
+    childRoutes: [
+      {
       path: 'index-cn',
       component: homeTmpl,
-    }, {
+    },
+     {
       path: 'docs/pattern/:children',
       component: redirectTmpl,
     }, {
