@@ -11,7 +11,7 @@ function ignoreMomentLocale(webpackConfig) {
 }
 
 function addLocales(webpackConfig) {
-  let packageName = 'antd-with-locales';
+  let packageName = 'axxd-with-locales';
   if (webpackConfig.entry['antd.min']) {
     packageName += '.min';
   }

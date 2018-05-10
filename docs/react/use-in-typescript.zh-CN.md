@@ -36,14 +36,14 @@ $ yarn start
 ## 引入 antd
 
 ```bash
-$ yarn add antd
+$ yarn add axxd
 ```
 
 修改 `src/App.tsx`，引入 antd 的按钮组件。
 
 ```jsx
 import * as React from 'react';
-import Button from 'antd/lib/button';
+import Button from 'axxd/lib/button';
 import './App.css';
 
 class App extends React.Component {

@@ -65,7 +65,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { LocaleProvider, DatePicker, message } from 'axxd';
 // The default locale is en-US, but we can change it to other language
-import frFR from 'antd/lib/locale-provider/fr_FR';
+import frFR from 'axxd/lib/locale-provider/fr_FR';
 import moment from 'moment';
 import 'moment/locale/fr';
 
@@ -184,11 +184,11 @@ You are using a whole package of antd, please use https://www.npmjs.com/package/
 However, we can import individual components on demand:
 
 ```jsx
-import Button from 'antd/lib/button';
-import 'antd/lib/button/style'; // or antd/lib/button/style/css for css format file
+import Button from 'axxd/lib/button';
+import 'axxd/lib/button/style'; // or antd/lib/button/style/css for css format file
 ```
 
-We strongly recommend using [babel-plugin-import](https://github.com/ant-design/babel-plugin-import), which can convert the following code to the 'antd/lib/xxx' way:
+We strongly recommend using [babel-plugin-import](https://github.com/ant-design/babel-plugin-import), which can convert the following code to the 'axxd/lib/xxx' way:
 
 ```jsx
 import { Button } from 'axxd';

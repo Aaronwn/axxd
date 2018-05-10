@@ -177,7 +177,7 @@ Properties for row selection.
 
 ```jsx
 import { Table } from 'axxd';
-import { ColumnProps } from 'antd/lib/table';
+import { ColumnProps } from 'axxd/lib/table';
 
 interface IUser {
   key: number,

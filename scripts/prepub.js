@@ -29,7 +29,7 @@ if (fs.existsSync(path.join(__dirname, '../lib'))) {
 }
 
 if (fs.existsSync(path.join(__dirname, '../dist'))) {
-  // Build a entry less file to dist/antd.less
+  // Build a entry less file to dist/axxd.less
   const componentsPath = path.join(process.cwd(), 'components');
   let componentsLessContent = '';
 
@@ -42,11 +42,11 @@ if (fs.existsSync(path.join(__dirname, '../dist'))) {
     });
     fs.writeFileSync(path.join(process.cwd(), 'lib', 'style', 'components.less'), componentsLessContent);
 
-    // Build less entry file: dist/antd.less
+    // Build less entry file: dist/axxd.less
     fs.writeFileSync(
-      path.join(process.cwd(), 'dist', 'antd.less'),
+      path.join(process.cwd(), 'dist', 'axxd.less'),
       '@import "../lib/style/index.less";\n@import "../lib/style/components.less";'
     );
   });
-  console.log('Built a entry less file to dist/antd.less');
+  console.log('Built a entry less file to dist/axxd.less');
 }

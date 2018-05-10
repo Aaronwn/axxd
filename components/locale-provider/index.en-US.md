@@ -13,7 +13,7 @@ title: LocaleProvider
 
 ```jsx
 import { LocaleProvider } from 'axxd';
-import fr_FR from 'antd/lib/locale-provider/fr_FR';
+import fr_FR from 'axxd/lib/locale-provider/fr_FR';
 import 'moment/locale/fr';
 
 ...
@@ -45,4 +45,4 @@ This component aims for localization of the built-in text, if you want to suppor
 
 | Property | Description | Type | Default |
 | -------- | ----------- | ---- | ------- |
-| locale | language package setting, you can find the packages in this path: `antd/lib/locale-provider/` | object | - |
+| locale | language package setting, you can find the packages in this path: `axxd/lib/locale-provider/` | object | - |

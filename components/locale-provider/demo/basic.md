@@ -15,7 +15,7 @@ Wrap your app with `LocaleProvider`, and apply the corresponding language packag
 
 ````jsx
 import { Pagination, LocaleProvider } from 'axxd';
-import zhCN from 'antd/lib/locale-provider/zh_CN';
+import zhCN from 'axxd/lib/locale-provider/zh_CN';
 
 const App = () => (
   <div>

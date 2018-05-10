@@ -55,7 +55,7 @@ $ npm install antd --save
 ```
 
 ```bash
-$ yarn add antd
+$ yarn add axxd
 ```
 
 如果你的网络环境不佳，推荐使用 [cnpm](https://github.com/cnpm/cnpm)。
@@ -81,7 +81,7 @@ ReactDOM.render(<DatePicker />, mountNode);
 引入样式：
 
 ```jsx
-import 'antd/dist/antd.css';  // or 'antd/dist/antd.less'
+import 'antd/dist/antd.css';  // or 'antd/dist/axxd.less'
 ```
 
 ### 按需加载
@@ -111,9 +111,9 @@ import 'antd/dist/antd.css';  // or 'antd/dist/antd.less'
 - 手动引入
 
    ```jsx
-   import DatePicker from 'antd/lib/date-picker';  // 加载 JS
-   import 'antd/lib/date-picker/style/css';        // 加载 CSS
-   // import 'antd/lib/date-picker/style';         // 加载 LESS
+   import DatePicker from 'axxd/lib/date-picker';  // 加载 JS
+   import 'axxd/lib/date-picker/style/css';        // 加载 CSS
+   // import 'axxd/lib/date-picker/style';         // 加载 LESS
    ```
 
 ## 链接

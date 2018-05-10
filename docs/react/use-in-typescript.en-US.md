@@ -36,14 +36,14 @@ Open browser at http://localhost:3000/, it renders a header saying "Welcome to R
 ## Import antd
 
 ```bash
-$ yarn add antd
+$ yarn add axxd
 ```
 
 Modify `src/App.js`, import Button component from `antd`.
 
 ```jsx
 import * as React from 'react';
-import Button from 'antd/lib/button';
+import Button from 'axxd/lib/button';
 import './App.css';
 
 class App extends React.Component {

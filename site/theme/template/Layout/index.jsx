@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
-// import { Icon } from 'antd';
+// import { Icon } from 'axxd';
 import { enquireScreen } from 'enquire-js';
 import { addLocaleData, IntlProvider } from 'react-intl';
 import Header from './Header';
@@ -17,7 +17,7 @@ if (typeof window !== 'undefined') {
   // Expose to iframe
   window.react = React;
   window['react-dom'] = ReactDOM;
-  window.antd = require('antd');
+  window.axxd = require('axxd');
   /* eslint-enable global-require */
 }
 

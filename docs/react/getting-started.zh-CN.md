@@ -67,7 +67,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { LocaleProvider, DatePicker, message } from 'axxd';
 // 由于 antd 组件的默认文案是英文，所以需要修改为中文
-import zhCN from 'antd/lib/locale-provider/zh_CN';
+import zhCN from 'axxd/lib/locale-provider/zh_CN';
 import moment from 'moment';
 import 'moment/locale/zh-cn';
 
@@ -184,8 +184,8 @@ You are using a whole package of antd, please use https://www.npmjs.com/package/
 可以通过以下的写法来按需加载组件。
 
 ```jsx
-import Button from 'antd/lib/button';
-import 'antd/lib/button/style'; // 或者 antd/lib/button/style/css 加载 css 文件
+import Button from 'axxd/lib/button';
+import 'axxd/lib/button/style'; // 或者 antd/lib/button/style/css 加载 css 文件
 ```
 
 如果你使用了 babel，那么可以使用 [babel-plugin-import](https://github.com/ant-design/babel-plugin-import) 来进行按需加载，加入这个插件后。你可以仍然这么写：

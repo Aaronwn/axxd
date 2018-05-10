@@ -18,7 +18,7 @@ ReactDOM.render(<DatePicker />, mountNode);
 引入样式：
 
 ```jsx
-import 'antd/dist/axxd.css';  // or 'antd/dist/axxd.less'
+import 'axxd/dist/axxd.css';  // or 'axxd/dist/axxd.less'
 ```
 
 

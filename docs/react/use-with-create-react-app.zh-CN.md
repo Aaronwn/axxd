@@ -55,14 +55,14 @@ $ yarn start
 现在从 yarn 或 npm 安装并引入 antd。
 
 ```bash
-$ yarn add antd
+$ yarn add axxd
 ```
 
 修改 `src/App.js`，引入 antd 的按钮组件。
 
 ```jsx
 import React, { Component } from 'react';
-import Button from 'antd/lib/button';
+import Button from 'axxd/lib/button';
 import './App.css';
 
 class App extends Component {
@@ -147,7 +147,7 @@ $ yarn add babel-plugin-import --dev
 ```diff
   // src/App.js
   import React, { Component } from 'react';
-- import Button from 'antd/lib/button';
+- import Button from 'axxd/lib/button';
 + import { Button } from 'axxd';
   import './App.css';
 

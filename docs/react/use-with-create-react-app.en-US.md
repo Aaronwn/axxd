@@ -56,14 +56,14 @@ Below is the default directory structure.
 Now we install `antd` from yarn or npm.
 
 ```bash
-$ yarn add antd
+$ yarn add axxd
 ```
 
 Modify `src/App.js`, import Button component from `antd`.
 
 ```jsx
 import React, { Component } from 'react';
-import Button from 'antd/lib/button';
+import Button from 'axxd/lib/button';
 import './App.css';
 
 class App extends Component {
@@ -150,7 +150,7 @@ Remove the `@import '~antd/dist/antd.css';` statement added before because `babe
 ```diff
   // src/App.js
   import React, { Component } from 'react';
-- import Button from 'antd/lib/button';
+- import Button from 'axxd/lib/button';
 + import { Button } from 'axxd';
   import './App.css';
 
