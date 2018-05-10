@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import { enquireScreen } from 'enquire-js';
 import { addLocaleData, IntlProvider } from 'react-intl';
 import Header from './Header';
-import Footer from './Footer';
+// import Footer from './Footer';
 import enLocale from '../../en-US';
 import cnLocale from '../../zh-CN';
 import * as utils from '../utils';
@@ -118,7 +118,7 @@ export default class Layout extends React.Component {
           {/* {promoteBanner} */}
           <Header {...restProps} />
           {children}
-          <Footer {...restProps} />
+          {/* <Footer {...restProps} /> */}
         </div>
       </IntlProvider>
     );

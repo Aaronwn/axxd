@@ -10,7 +10,7 @@ function pickerGenerator(module) {
   return (markdownData) => {
     const { filename } = markdownData.meta;
     if (tester.test(filename) &&
-        !/\/demo$/.test(path.dirname(filename))) {
+      !/\/demo$/.test(path.dirname(filename))) {
       return {
         meta: markdownData.meta,
       };
@@ -29,7 +29,7 @@ module.exports = {
     components(markdownData) {
       const { filename } = markdownData.meta;
       if (!/^components/.test(filename) ||
-          /[/\\]demo$/.test(path.dirname(filename))) return;
+        /[/\\]demo$/.test(path.dirname(filename))) return;
 
       return {
         meta: markdownData.meta,
@@ -57,36 +57,38 @@ module.exports = {
     path: '/',
     component: './template/Layout/index',
     indexRoute: { component: homeTmpl },
-    childRoutes: [{
-      path: 'index-cn',
-      component: homeTmpl,
-    }, {
-      path: 'docs/pattern/:children',
-      component: redirectTmpl,
-    }, {
-      path: 'docs/react/:children',
-      component: contentTmpl,
-    }, {
-      path: 'changelog',
-      component: contentTmpl,
-    }, {
-      path: 'changelog-cn',
-      component: contentTmpl,
-    }, {
-      path: 'components/:children/',
-      component: contentTmpl,
-    }, {
-      path: 'docs/spec/feature',
-      component: redirectTmpl,
-    }, {
-      path: 'docs/spec/feature-cn',
-      component: redirectTmpl,
-    }, {
-      path: 'docs/spec/:children',
-      component: contentTmpl,
-    }, {
-      path: 'docs/resource/:children',
-      component: redirectTmpl,
-    }],
+    childRoutes: [
+      {
+        path: 'index-cn',
+        component: homeTmpl,
+      },
+      {
+        path: 'docs/pattern/:children',
+        component: redirectTmpl,
+      }, {
+        path: 'docs/react/:children',
+        component: contentTmpl,
+      }, {
+        path: 'changelog',
+        component: contentTmpl,
+      }, {
+        path: 'changelog-cn',
+        component: contentTmpl,
+      }, {
+        path: 'components/:children/',
+        component: contentTmpl,
+      }, {
+        path: 'docs/spec/feature',
+        component: redirectTmpl,
+      }, {
+        path: 'docs/spec/feature-cn',
+        component: redirectTmpl,
+      }, {
+        path: 'docs/spec/:children',
+        component: contentTmpl,
+      }, {
+        path: 'docs/resource/:children',
+        component: redirectTmpl,
+      }],
   },
 };
