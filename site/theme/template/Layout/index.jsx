@@ -59,6 +59,10 @@ export default class Layout extends React.Component {
     };
   }
 
+  componentWillMount() {
+    this.context.router.push('/docs/react/introduce-cn/');
+  }
+
   componentDidMount() {
     if (typeof window.ga !== 'undefined') {
       this.context.router.listen((loc) => {
