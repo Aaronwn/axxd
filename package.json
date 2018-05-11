@@ -1,9 +1,9 @@
 {
-  "name": "axx-design",
-  "version": "0.0.1",
-  "title": "Ant Design",
+  "name": "axxd",
+  "version": "0.1.0",
+  "title": "Axx Design",
   "description": "An enterprise-class UI design language and React-based implementation",
-  "homepage": "http://axx.design/",
+  "homepage": "https://01x.ui.dev.aixuexi.com/",
   "keywords": [
     "ant",
     "design",
@@ -16,7 +16,7 @@
     "frontend"
   ],
   "contributors": [
-    "ant"
+    "axxd"
   ],
   "repository": {
     "type": "git",
@@ -99,7 +99,7 @@
     "babel-preset-stage-0": "^6.16.0",
     "bezier-easing": "^2.0.3",
     "bisheng": "^0.28.0",
-    "bisheng-plugin-antd": "^0.16.0",
+    "bisheng-plugin-axxd": "0.0.2",
     "bisheng-plugin-description": "^0.1.1",
     "bisheng-plugin-react": "^0.6.0",
     "bisheng-plugin-toc": "^0.4.0",

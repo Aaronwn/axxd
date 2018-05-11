@@ -14,7 +14,7 @@ title:
 Table with editable cells.
 
 ````jsx
-import { Table, Input, Icon, Button, Popconfirm } from 'antd';
+import { Table, Input, Icon, Button, Popconfirm } from 'axxd';
 
 class EditableCell extends React.Component {
   state = {

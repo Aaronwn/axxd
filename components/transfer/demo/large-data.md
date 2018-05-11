@@ -15,7 +15,7 @@ title:
 2000 items.
 
 ````jsx
-import { Transfer } from 'antd';
+import { Transfer } from 'axxd';
 
 class App extends React.Component {
   state = {

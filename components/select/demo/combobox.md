@@ -19,7 +19,7 @@ Using the [AutoComplete](/components/auto-complete/) component is strongly recom
 
 
 ````jsx
-import { Select } from 'antd';
+import { Select } from 'axxd';
 const Option = Select.Option;
 
 class App extends React.Component {

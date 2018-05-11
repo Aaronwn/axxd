@@ -14,7 +14,7 @@ title:
 Hover to expand sub menu, click to select option.
 
 ````jsx
-import { Cascader } from 'antd';
+import { Cascader } from 'axxd';
 
 const options = [{
   value: 'zhejiang',

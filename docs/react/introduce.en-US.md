@@ -55,7 +55,7 @@ $ npm install antd --save
 ```
 
 ```bash
-$ yarn add antd
+$ yarn add axxd
 ```
 
 If you are in a bad network environment，you can try other registries and tools like [cnpm](https://github.com/cnpm/cnpm).
@@ -73,14 +73,14 @@ We provide `antd.js` `antd.css` and `antd.min.js` `antd.min.css` under `antd/dis
 ## Usage
 
 ```jsx
-import { DatePicker } from 'antd';
+import { DatePicker } from 'axxd';
 ReactDOM.render(<DatePicker />, mountNode);
 ```
 
 And import stylesheets manually:
 
 ```jsx
-import 'antd/dist/antd.css';  // or 'antd/dist/antd.less'
+import 'antd/dist/antd.css';  // or 'antd/dist/axxd.less'
 ```
 
 ### Use modularized antd
@@ -102,15 +102,15 @@ import 'antd/dist/antd.css';  // or 'antd/dist/antd.less'
 
    ```jsx
    // import js and css modularly, parsed by babel-plugin-import
-   import { DatePicker } from 'antd';
+   import { DatePicker } from 'axxd';
    ```
 
 - Manually import
 
    ```jsx
-   import DatePicker from 'antd/lib/date-picker';  // for js
-   import 'antd/lib/date-picker/style/css';        // for css
-   // import 'antd/lib/date-picker/style';         // that will import less
+   import DatePicker from 'axxd/lib/date-picker';  // for js
+   import 'axxd/lib/date-picker/style/css';        // for css
+   // import 'axxd/lib/date-picker/style';         // that will import less
    ```
 
 ### TypeScript

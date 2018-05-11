@@ -7,6 +7,7 @@ export default function demoTest(component, options = {}) {
   const files = glob.sync(`./components/${component}/demo/*.md`);
 
   files.forEach((file) => {
+    // options.skip = true;
     let testMethod = options.skip === true ? test.skip : test;
     if (Array.isArray(options.skip) && options.skip.some(c => file.includes(c))) {
       testMethod = test.skip;

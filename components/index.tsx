@@ -1,4 +1,5 @@
 /* @remove-on-es-build-begin */
+// this file is not used if use https:github.com/ant-design/babel-plugin-import
 // this file is not used if use https://github.com/ant-design/babel-plugin-import
 const ENV = process.env.NODE_ENV;
 if (ENV !== 'production' &&
@@ -6,14 +7,13 @@ if (ENV !== 'production' &&
     console.warn &&
     typeof window !== 'undefined') {
   console.warn(
-    'You are using a whole package of antd, ' +
+    'You are using a whole package of axxd, ' +
     'please use https://www.npmjs.com/package/babel-plugin-import to reduce app bundle size.',
   );
 }
 /* @remove-on-es-build-end */
 
 export { default as Affix } from './affix';
-export { default as Affix2 } from './affix2';
 
 export { default as Anchor } from './anchor';
 

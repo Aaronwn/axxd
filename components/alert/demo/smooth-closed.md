@@ -14,7 +14,7 @@ title:
 Smoothly and unaffectedly unmount Alert.
 
 ````jsx
-import { Alert } from 'antd';
+import { Alert } from 'axxd';
 
 class App extends React.Component {
   state = {

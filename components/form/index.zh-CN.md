@@ -168,8 +168,8 @@ CustomizedForm = Form.create({})(CustomizedForm);
 ## 在 TypeScript 中使用
 
 ```jsx
-import { Form } from 'antd';
-import { FormComponentProps } from 'antd/lib/form';
+import { Form } from 'axxd';
+import { FormComponentProps } from 'axxd/lib/form';
 
 interface UserFormProps extends FormComponentProps {
   age: number;

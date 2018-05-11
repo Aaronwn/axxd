@@ -14,7 +14,7 @@ title:
 A non-case-sensitive AutoComplete
 
 ````jsx
-import { AutoComplete } from 'antd';
+import { AutoComplete } from 'axxd';
 
 const dataSource = ['Burns Bay Road', 'Downing Street', 'Wall Street'];
 

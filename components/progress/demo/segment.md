@@ -14,7 +14,7 @@ title:
 A standard progress bar.
 
 ````jsx
-import { Tooltip, Progress } from 'antd';
+import { Tooltip, Progress } from 'axxd';
 
 ReactDOM.render(
   <Tooltip title="3 done / 3 in progress / 4 to do">

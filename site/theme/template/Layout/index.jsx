@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
-// import { Icon } from 'antd';
+// import { Icon } from 'axxd';
 import { enquireScreen } from 'enquire-js';
 import { addLocaleData, IntlProvider } from 'react-intl';
 import Header from './Header';
-import Footer from './Footer';
+// import Footer from './Footer';
 import enLocale from '../../en-US';
 import cnLocale from '../../zh-CN';
 import * as utils from '../utils';
@@ -17,7 +17,7 @@ if (typeof window !== 'undefined') {
   // Expose to iframe
   window.react = React;
   window['react-dom'] = ReactDOM;
-  window.antd = require('antd');
+  window.axxd = require('axxd');
   /* eslint-enable global-require */
 }
 
@@ -57,6 +57,10 @@ export default class Layout extends React.Component {
       isMobile,
       // adBannerClosed,
     };
+  }
+
+  componentWillMount() {
+    this.context.router.push('/docs/react/introduce-cn/');
   }
 
   componentDidMount() {
@@ -118,7 +122,7 @@ export default class Layout extends React.Component {
           {/* {promoteBanner} */}
           <Header {...restProps} />
           {children}
-          <Footer {...restProps} />
+          {/* <Footer {...restProps} /> */}
         </div>
       </IntlProvider>
     );

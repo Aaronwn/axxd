@@ -14,7 +14,7 @@ title:
 Using pre & post tabs example.
 
 ````jsx
-import { Input, Select, Icon } from 'antd';
+import { Input, Select, Icon } from 'axxd';
 const Option = Select.Option;
 
 const selectBefore = (

@@ -14,7 +14,7 @@ title:
 Shows a loading indicator while the contents of the card is being fetched.
 
 ````jsx
-import { Card, Button } from 'antd';
+import { Card, Button } from 'axxd';
 
 class LoadingCard extends React.Component {
   state = {

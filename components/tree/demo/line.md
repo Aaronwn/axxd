@@ -14,7 +14,7 @@ title:
 Tree With Line
 
 ````jsx
-import { Tree } from 'antd';
+import { Tree } from 'axxd';
 const TreeNode = Tree.TreeNode;
 
 class Demo extends React.Component {

@@ -110,7 +110,7 @@ Create `components/ProductList.js` by typing:
 ```javascript
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Table, Popconfirm, Button } from 'antd';
+import { Table, Popconfirm, Button } from 'axxd';
 
 const ProductList = ({ onDelete, products }) => {
   const columns = [{

@@ -387,7 +387,7 @@ We provide a [migration tool](https://github.com/ant-design/antd-migration-helpe
 - Added `Form.createFormField`, and you must use it to wrap field data returned in `option.mapPropsToFields`:
 
   ```diff
-  import { Form } from 'antd';
+  import { Form } from 'axxd';
 
   Form.create({
     mapPropsToFields() {
@@ -402,7 +402,7 @@ We provide a [migration tool](https://github.com/ant-design/antd-migration-helpe
 - Improved global reset style, if you encounter style problem after upgrading, you can try import our v2 compatible style.
 
   ```javascript
-  import 'antd/lib/style/v2-compatible-reset';
+  import 'axxd/lib/style/v2-compatible-reset';
   ```
 
   Or use less

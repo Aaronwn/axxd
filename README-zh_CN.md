@@ -31,7 +31,7 @@ ReactDOM.render(<DatePicker />, mountNode);
 引入样式：
 
 ```jsx
-import 'antd/dist/axxantd.css';  // or 'antd/dist/axxantd.less'
+import 'axxd/dist/axxd.css';  // or 'axxd/dist/axxd.less'
 ```
 
 你也可以[按需加载组件](https://ant.design/docs/react/getting-started-cn#按需加载)。

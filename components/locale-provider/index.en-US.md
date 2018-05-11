@@ -12,8 +12,8 @@ title: LocaleProvider
 `LocaleProvider` takes use of [context](https://facebook.github.io/react/docs/context.html), a feature of React, to accomplish global effectiveness by wrapping the app only once.
 
 ```jsx
-import { LocaleProvider } from 'antd';
-import fr_FR from 'antd/lib/locale-provider/fr_FR';
+import { LocaleProvider } from 'axxd';
+import fr_FR from 'axxd/lib/locale-provider/fr_FR';
 import 'moment/locale/fr';
 
 ...
@@ -45,4 +45,4 @@ This component aims for localization of the built-in text, if you want to suppor
 
 | Property | Description | Type | Default |
 | -------- | ----------- | ---- | ------- |
-| locale | language package setting, you can find the packages in this path: `antd/lib/locale-provider/` | object | - |
+| locale | language package setting, you can find the packages in this path: `axxd/lib/locale-provider/` | object | - |

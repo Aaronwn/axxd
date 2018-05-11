@@ -6,7 +6,7 @@ import { FormattedMessage } from 'react-intl';
 import CopyToClipboard from 'react-copy-to-clipboard';
 import classNames from 'classnames';
 import LZString from 'lz-string';
-import { Icon, Tooltip } from 'antd';
+import { Icon, Tooltip } from 'axxd';
 import EditButton from './EditButton';
 import BrowserFrame from '../BrowserFrame';
 import { ping } from '../utils';
@@ -141,7 +141,7 @@ export default class Demo extends React.Component {
         'react@15.x/dist/react.js',
         'react-dom@15.x/dist/react-dom.js',
         'moment/min/moment-with-locales.js',
-        'antd/dist/antd-with-locales.js',
+        'axxd/dist/axxd-with-locales.js',
       ].map(url => `https://unpkg.com/${url}`).join(';'),
       js_pre_processor: 'typescript',
     };
@@ -171,7 +171,7 @@ export default class Demo extends React.Component {
           content: `
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'antd/dist/antd.css';
+import 'axxd/dist/axxd.css';
 import './index.css';
 ${state.sourceCode.replace('mountNode', 'document.getElementById(\'container\')')}
           `,

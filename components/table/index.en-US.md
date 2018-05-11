@@ -176,8 +176,8 @@ Properties for row selection.
 ## Using in TypeScript
 
 ```jsx
-import { Table } from 'antd';
-import { ColumnProps } from 'antd/lib/table';
+import { Table } from 'axxd';
+import { ColumnProps } from 'axxd/lib/table';
 
 interface IUser {
   key: number,

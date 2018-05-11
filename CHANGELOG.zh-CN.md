@@ -389,7 +389,7 @@ timeline: true
 - 新增 `Form.createFormField` 方法，`mapPropsToFields` 返回的字段都需要由该方法创建。
 
   ```diff
-  import { Form } from 'antd';
+  import { Form } from 'axxd';
 
   Form.create({
     mapPropsToFields() {
@@ -404,7 +404,7 @@ timeline: true
 - 优化了全局的重置样式，如果升级后你的全局样式有问题，可以引入我们提供的 2.x 兼容样式。
 
   ```javascript
-  import 'antd/lib/style/v2-compatible-reset';
+  import 'axxd/lib/style/v2-compatible-reset';
   ```
 
   或者在 less 里引入
@@ -416,8 +416,8 @@ timeline: true
 - 由于默认语言改为英文，如果你需要显示中文，现在需要配置 `LocalProvider`。
 
   ```javascript
-  import { LocaleProvider } from 'antd';
-  import zhCN from 'antd/lib/locale-provider/zh_CN';
+  import { LocaleProvider } from 'axxd';
+  import zhCN from 'axxd/lib/locale-provider/zh_CN';
 
   ReactDOM.render(
     <LocaleProvider locale={zhCN}><YourApp /></LocaleProvider>,
